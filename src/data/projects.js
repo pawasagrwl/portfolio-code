@@ -9,8 +9,8 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
+		title: 'Instagram Tools',
+		category: 'Python Appliation',
 		img: WebImage2,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
@@ -24,28 +24,28 @@ export const projectsData = [
 		category: 'Mobile Application',
 		img: MobileImage2,
 	},
-	{
-		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
-	},
+	// {
+	// 	id: 3,
+	// 	title: 'Project Management UI',
+	// 	category: 'UI/UX Design',
+	// 	img: UIImage1,
+	// },
+	// {
+	// 	id: 4,
+	// 	title: 'Cloud Storage Platform',
+	// 	category: 'UI/UX Design',
+	// 	img: UIImage2,
+	// },
+	// {
+	// 	id: 5,
+	// 	title: 'React Social App',
+	// 	category: 'Mobile Application',
+	// 	img: MobileImage1,
+	// },
+	// {
+	// 	id: 6,
+	// 	title: 'Apple Design System',
+	// 	category: 'Web Application',
+	// 	img: WebImage1,
+	// },
 ];
