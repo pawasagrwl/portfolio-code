@@ -9,13 +9,13 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Instagram Tools',
-		category: 'Python Appliation',
+		title: 'Android TV App - Amazon Mini TV',
+		category: 'Java Application',
 		img: WebImage2,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			publishDate: 'May 22, 2023',
+			tags: 'Android',
 		},
 	},
 	{
