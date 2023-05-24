@@ -25,7 +25,7 @@
 		"postbuild": "npm run copy-readme && npm run deploy-build",
 		
 		"copy-readme": "cp public/README.md build/",
-		"deploy-build": "npm run build-git && npm add-remote && npm run push-build",
+		"deploy-build": "npm run build-git && npm run add-remote && npm run push-build",
 		
 		"build-git": "cd build && git init",
 		"add-remote": "cd build && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git",
