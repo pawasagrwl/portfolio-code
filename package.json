@@ -18,13 +18,21 @@
 		"react-scroll": "^1.8.4",
 		"styled-components": "^5.3.3",
 		"web-vitals": "^1.0.1"
-	},
+	},  
 	"scripts": {
 		"start": "react-scripts --openssl-legacy-provider start",
 		"build": "react-scripts --openssl-legacy-provider build",
-		"postbuild": "npm run copy-readme && npm run build-git",
+		"postbuild": "npm run copy-readme && npm run deploy-build",
+		
 		"copy-readme": "cp public/README.md build/",
-		"build-git": "cd build && git init && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git && git add . && git commit -m 'Update build' && git push --force origin master",
+		"deploy-build": "npm run build-git && npm add-remote && npm run push-build",
+		
+		"build-git": "cd build && git init",
+		"add-remote": "cd build && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git",
+		"push-build": "cd build && git add . && git commit -m \"Update Build\" && git push --force origin master",
+		
+		"push-code": "git add . && git commit -m \"Update Code\" && git push origin master",
+
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
