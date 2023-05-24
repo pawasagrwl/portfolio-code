@@ -22,10 +22,9 @@
 	"scripts": {
 		"start": "react-scripts --openssl-legacy-provider start",
 		"build": "react-scripts --openssl-legacy-provider build",
-		"postbuild": "npm run copy-readme && npm run build-git && npm run push-git",
+		"postbuild": "npm run copy-readme && npm run build-git",
 		"copy-readme": "cp public/README.md build/",
-		"create-git": "cd build && git init && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git",
-		"push-git": "git add . && git commit -m 'Update build' && git push --force origin master",
+		"build-git": "cd build && git init && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git && git add . && git commit -m 'Update build' && git push --force origin master",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
