@@ -8,17 +8,18 @@ import Image6 from '../images/ui-project-2.jpg';
 // Import icons
 import {
 	FiFacebook,
+	FiGithub,
 	FiInstagram,
 	FiLinkedin,
 	FiTwitter,
-	FiYoutube,
+	FiYoutube
 } from 'react-icons/fi';
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		title: 'Android TV App for Amazon MiniTV',
+		publishDate: 'May 22, 2023',
+		tags: 'Android, Java',
 	},
 	ProjectImages: [
 		{
@@ -63,17 +64,13 @@ export const singleProjectData = {
 		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'This Android app allows you to access the Amazon Mini TV website on your Android TV device.',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Java',
+					'Android Studio',
 				],
 			},
 		],
@@ -100,38 +97,14 @@ export const singleProjectData = {
 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
 			},
 		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
+		SourceCodeHeading: 'Source Code',
+		SourceCode: [
 			{
 				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
+				name: 'GitHub',
+				icon: <FiGithub />,
+				url: 'https://github.com/pawasagrwl/AndroidTVApp-AmazonMiniTV',
+			}
 		],
 	},
 	RelatedProject: {

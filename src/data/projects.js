@@ -9,13 +9,13 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Android TV App - Amazon Mini TV',
+		title: 'Android TV App for Amazon MiniTV',
 		category: 'Java Application',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
+			title: 'Android TV App for Amazon MiniTV',
 			publishDate: 'May 22, 2023',
-			tags: 'Android',
+			tags: 'Android, Java',
 		},
 	},
 	{

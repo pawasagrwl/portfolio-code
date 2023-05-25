@@ -3,10 +3,10 @@ import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Full-Stack Development',
+	'Frontend Development',
+	'Backend Development',
+	'Others',
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
@@ -26,7 +26,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 					<div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative">
 						<div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
 							<h5 className=" text-primary-dark dark:text-primary-light text-xl">
-								What project are you looking for?
+								How can we work together?
 							</h5>
 							<button
 								onClick={onClose}
@@ -111,7 +111,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 											focus:ring-1 focus:ring-indigo-900 duration-500"
 										aria-label="Submit Request"
 									>
-										<Button title="Send Request" />
+										<Button title="Connect Now" />
 									</span>
 								</div>
 							</form>

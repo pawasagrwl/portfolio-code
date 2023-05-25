@@ -8,7 +8,7 @@ const ProjectInfo = () => {
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
-				<div className="mb-7">
+				{/* <div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
 						{singleProjectData.ProjectInfo.ClientHeading}
 					</p>
@@ -38,7 +38,7 @@ const ProjectInfo = () => {
 							}
 						)}
 					</ul>
-				</div>
+				</div> */}
 
 				{/* Single project objectives */}
 				<div className="mb-7">
@@ -60,15 +60,14 @@ const ProjectInfo = () => {
 							', '
 						)}
 					</p>
-				</div>
-
-				{/* Single project social sharing */}
+				</div>	
+				{/* Single project source */}
 				<div>
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{singleProjectData.ProjectInfo.SocialSharingHeading}
+						{singleProjectData.ProjectInfo.SourceCodeHeading}
 					</p>
 					<div className="flex items-center gap-3 mt-5">
-						{singleProjectData.ProjectInfo.SocialSharing.map(
+						{singleProjectData.ProjectInfo.SourceCode.map(
 							(social) => {
 								return (
 									<a
