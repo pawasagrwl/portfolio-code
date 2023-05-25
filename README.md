@@ -15,7 +15,7 @@ To deploy your portfolio on GitHub Pages, follow these steps:
 3. Open the `public/README.md` file and locate the line with `def` value.
 4. Replace the `def` value with the actual link to your deployed portfolio on GitHub Pages.
 5. Save the changes to the `public/README.md` file.
-6. Run the following command in your terminal to build your portfolio:
+6. Run the following command in your **git bash** terminal to build your portfolio:
 `npm run build`
 
 After the command runs successfully, the build should be pushed to your GitHub pages repository with a README containing the link to your portfolio.
