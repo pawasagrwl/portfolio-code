@@ -3,12 +3,14 @@ import AboutCounter from '../components/about/AboutCounter';
 import AboutClients from '../components/about/AboutClients';
 import { AboutMeProvider } from '../context/AboutMeContext';
 import { motion } from 'framer-motion';
+import { Box } from '@mui/material';
+import Terminal from '../components/about/Terminal';
 
 const About = () => {
 	return (
 		<AboutMeProvider>
 
-
+			<Terminal text="About Me" />
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
