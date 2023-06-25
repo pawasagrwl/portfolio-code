@@ -2,6 +2,7 @@
 	"name": "react-tailwindcss-portfolio",
 	"version": "0.1.0",
 	"private": true,
+	"homepage" : "https://pawasagrwl.github.io",
 	"dependencies": {
 		"@emotion/react": "^11.11.0",
 		"@emotion/styled": "^11.11.0",
@@ -27,15 +28,16 @@
 	"scripts": {
 		"start": "react-scripts --openssl-legacy-provider start",
 		"build": "react-scripts --openssl-legacy-provider build",
-		"postbuild": "npm run copy-readme && npm run deploy-build",
-		"copy-readme": "cp public/README.md build/",
-		"deploy-build": "npm run build-git && npm run add-remote && npm run push-build",
-		"build-git": "cd build && git init",
-		"add-remote": "cd build && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git",
-		"push-build": "cd build && git add . && git commit -m \"Update Build\" && git push --force origin master",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+		"predeploy": "npm run build",
+		"deploy": "npm run copy-readme && npm run git-deploy",
+		"copy-readme": "cp public/README.md build/",
+		"git-deploy": "npm run build-git && npm run add-remote && npm run push-build",
+		"build-git": "cd build && git init",
+		"add-remote": "cd build && git remote add origin https://github.com/pawasagrwl/pawasagrwl.github.io.git",
+		"push-build": "cd build && git add . && git commit -m \"Update Build\" && git push --force origin master"
 	},
 	"eslintConfig": {
 		"extends": [

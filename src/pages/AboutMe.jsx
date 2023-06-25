@@ -10,7 +10,7 @@ const About = () => {
 	return (
 		<AboutMeProvider>
 
-			<Terminal text="About Me" />
+			{/* <Terminal text="About Me" /> */}
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
