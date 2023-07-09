@@ -8,28 +8,28 @@ import UIImage2 from '../images/ui-project-2.jpg';
 
 export const projectsData = [
 	{
-		id: 1,
-		title: 'Android TV App for Amazon MiniTV',
+		id: '1',
+		title: 'Amazon MiniTV AndroidTV App',
 		category: 'Java Application',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Android TV App for Amazon MiniTV',
+			title: 'Amazon MiniTV AndroidTV App)',
 			publishDate: 'May 22, 2023',
 			tags: 'Android, Java',
 		},
 	},
 	{
-		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		id: '2',
+		title: 'DMetroVerse',
+		category: 'Web Application',
 		img: MobileImage2,
 	},
-	// {
-	// 	id: 3,
-	// 	title: 'Project Management UI',
-	// 	category: 'UI/UX Design',
-	// 	img: UIImage1,
-	// },
+	{
+		id: 3,
+		title: 'Project Management UI',
+		category: 'UI/UX Design',
+		img: UIImage1,
+	},
 	// {
 	// 	id: 4,
 	// 	title: 'Cloud Storage Platform',
