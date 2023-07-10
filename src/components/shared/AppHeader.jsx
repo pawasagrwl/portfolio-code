@@ -4,8 +4,6 @@ import { CgHomeAlt } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import useThemeSwitcher from "../../hooks/useThemeSwitcher";
 import HireMeModal from "../HireMeModal";
-import homeLight from "../../images/home-light.svg";
-import homeDark from "../../images/home-dark.svg";
 import { motion } from "framer-motion";
 import Button from "../reusable/Button";
 

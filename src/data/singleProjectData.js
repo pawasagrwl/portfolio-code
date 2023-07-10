@@ -7,12 +7,7 @@ import Image5 from "../images/web-project-1.jpg";
 import Image6 from "../images/ui-project-2.jpg";
 // Import icons
 import {
-  FiFacebook,
   FiGithub,
-  FiInstagram,
-  FiLinkedin,
-  FiTwitter,
-  FiYoutube,
 } from "react-icons/fi";
 
 export const singleProjectData = {
@@ -122,11 +117,6 @@ export const singleProjectData = {
           id: 3,
           title: "UI Design",
           img: Image6,
-        },
-        {
-          id: 4,
-          title: "Kabul Mobile App UI",
-          img: Image3,
         },
       ],
     },
@@ -238,11 +228,6 @@ export const singleProjectData = {
           title: "UI Design",
           img: Image6,
         },
-        {
-          id: 4,
-          title: "Kabul Mobile App UI",
-          img: Image3,
-        },
       ],
     },
   },
@@ -352,11 +337,6 @@ export const singleProjectData = {
           id: 3,
           title: "UI Design",
           img: Image6,
-        },
-        {
-          id: 4,
-          title: "Kabul Mobile App UI",
-          img: Image3,
         },
       ],
     },

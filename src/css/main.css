@@ -657,6 +657,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1477,4 +1483,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+}
+/* Form Error Message */
+.form-error {
+  color: #ff0000; /* Red color */
+  font-size: 0.875em; /* Slightly smaller than normal text */
+  margin-top: 0.25em; /* Space above the error message */
+}
+
+/* Input with Error */
+.input-error {
+  border-color: #ff0000; /* Red border */
+  box-shadow: 0 0 0.25em rgba(255, 0, 0, 0.25); /* Red glow */
 }
