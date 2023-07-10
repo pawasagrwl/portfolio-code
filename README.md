@@ -1,30 +1,34 @@
 # My Portfolio
 
-This is a portfolio website built with React and Tailwind CSS, based on the [React & TailwindCSS Portfolio template](https://github.com/realstoman/react-tailwindcss-portfolio) by [Nangialai Stoman](https://github.com/realstoman).
+This portfolio website is built with React and Tailwind CSS. It's based on the [React & TailwindCSS Portfolio template](https://github.com/realstoman/react-tailwindcss-portfolio) by [Nangialai Stoman](https://github.com/realstoman).
 
-## Changes Made
+## Customizations
 
-1. Added functionality to show different project in single project view
-2. Changed home button to home icon
+- Enable showcasing different projects in a single project view.
+- Integrated with EmailJS, with form validation, for the 'Hire Me' and 'Contact Form' features.
+- Home button replaced with a home icon for better UX.
 
-## Demo
+## Live Demo
 
-Check out the live demo of the portfolio: [Live Demo](https://pawasagrwl.github.io)
+You can view the live demo of the portfolio here: [Live Demo](https://pawasagrwl.github.io)
 
-## Deploying on GitHub Pages
+## Deployment on GitHub Pages
 
-To deploy your portfolio on GitHub Pages, follow these steps:
+Follow these steps to deploy your portfolio on GitHub Pages:
 
 1. Create a new repository on GitHub to host your portfolio.
-2. Copy URL of your GitHub Pages repository to "*add-remote*" script in `package.json`.
-3. Open the `public/README.md` file and locate the line with `portfolio` value.
-4. Replace the `portfolio` value with the actual link to your deployed portfolio on GitHub Pages.
-5. Save the changes to the `public/README.md` file.
-6. Run the following command in your **git bash** terminal to build your portfolio:
-`npm run deploy`
+2. Replace the URL in the "*add-remote*" script in `package.json` with the URL of your new GitHub repository.
+3. In the `public/README.md` file, replace the `portfolio` value with the link to your deployed portfolio on GitHub Pages.
+4. Save the changes.
+5. Run `npm run deploy` in your terminal. This will build your portfolio and push it to your GitHub pages repository.
+> For this to work, the build changes are all force pushed
+## EmailJS Setup
 
-After the command runs successfully, the build should be pushed to your GitHub pages repository with a README containing the link to your portfolio.
+To setup EmailJS:
 
+1. Rename the `.env_example` file to `.env`.
+2. Replace the placeholder values in the `.env` file with your actual EmailJS credentials.
 
-### License
-[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
+## License
+
+This project is licensed under the [MIT License](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE).

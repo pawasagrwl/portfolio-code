@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { FiX } from "react-icons/fi";
 import Button from "./reusable/Button";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import { useState } from "react";
 
 const selectOptions = [
   "Full-Stack Development",
@@ -33,10 +32,10 @@ const HireMeModal = ({ onClose, onRequest }) => {
 
     emailjs
       .sendForm(
-        "portfolio23",
-        "template_81c2brb",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        "J-hPlKPTVay5CnKqr"
+        process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
         (result) => {
