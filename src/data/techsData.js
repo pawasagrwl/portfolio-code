@@ -8,9 +8,9 @@ import SamsungImage from '../images/brands/samsung_gray.png';
 import CanonImage from '../images/brands/canon_gray.png';
 import PumaImage from '../images/brands/puma_gray.png';
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const techsHeading = 'Technologies I work or have worked with.';
 
-export const clientsData = [
+export const techsData = [
 	{
 		id: 1,
 		title: 'Amazon',

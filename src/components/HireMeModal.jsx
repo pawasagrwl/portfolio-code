@@ -29,7 +29,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
       setIsSubmitting(false);
       return;
     }
-
+    onClose();
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -41,7 +41,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
         (result) => {
           console.log(result.text);
           setIsSubmitting(false);
-          onClose();
+          
         },
         (error) => {
           console.log(error.text);

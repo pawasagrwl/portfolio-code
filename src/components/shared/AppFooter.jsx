@@ -2,6 +2,7 @@ import {
 	FiGithub,
 	FiLinkedin
 } from 'react-icons/fi';
+import AppFooterLastUpdated from './AppFooterLastUpdated'
 
 const socialLinks = [
 	{
@@ -41,7 +42,7 @@ const AppFooter = () => {
 					</ul>
 				</div>
 
-				{/* <AppFooterCopyright /> */}
+				<AppFooterLastUpdated />
 			</div>
 		</div>
 	);

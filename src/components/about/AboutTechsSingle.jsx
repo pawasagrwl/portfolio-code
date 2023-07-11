@@ -1,4 +1,4 @@
-const AboutClientSingle = ({ title, image }) => {
+const AboutTechsSingle = ({ title, image }) => {
 	return (
 		<>
 			<img
@@ -10,4 +10,4 @@ const AboutClientSingle = ({ title, image }) => {
 	);
 };
 
-export default AboutClientSingle;
+export default AboutTechsSingle;
