@@ -125,7 +125,7 @@ export const singleProjectData = {
     ProjectHeader: {
       title: "DMetroVerse",
       publishDate: "May 22, 2023",
-      tags: "Android, Java",
+      tags: "React, TypeScript, JavaScript, Heroku",
     },
     ProjectImages: [
       {
@@ -170,11 +170,11 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "This Android app allows you to access the Amazon Mini TV website on your Android TV device.",
+        "A website for people wanting to explore delhi metro.",
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["Java", "Android Studio"],
+          techs: ["React", "JavaScript", "TypeScript", "Node.js"],
         },
       ],
       ProjectDetailsHeading: "Challenge",
@@ -235,7 +235,7 @@ export const singleProjectData = {
     ProjectHeader: {
       title: "Instagram Tools",
       publishDate: "May 22, 2023",
-      tags: "Android, Java",
+      tags: "Python, Selenium, Instagram",
     },
     ProjectImages: [
       {
@@ -280,11 +280,11 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "This Android app allows you to access the Amazon Mini TV website on your Android TV device.",
+        "A python script to perform various function for an instagram account using web-scraping",
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: ["Java", "Android Studio"],
+          techs: ["Python", "Selenium"],
         },
       ],
       ProjectDetailsHeading: "Challenge",
