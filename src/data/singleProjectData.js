@@ -123,7 +123,7 @@ export const singleProjectData = {
   },
   '2': {
     ProjectHeader: {
-      title: "2nd Project",
+      title: "DMetroVerse",
       publishDate: "May 22, 2023",
       tags: "Android, Java",
     },
@@ -233,7 +233,7 @@ export const singleProjectData = {
   },
   '3': {
     ProjectHeader: {
-      title: "3rd Project",
+      title: "Instagram Tools",
       publishDate: "May 22, 2023",
       tags: "Android, Java",
     },

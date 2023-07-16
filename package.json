@@ -12,13 +12,14 @@
 		"@testing-library/user-event": "^14.4.3",
 		"classnames": "^2.3.2",
 		"emailjs-com": "^3.2.0",
-		"framer-motion": "4.1.17",
+		"framer-motion": "^4.1.17",
 		"node": "^19.8.1",
 		"postcss-cli": "^10.1.0",
 		"react": "^18.1.0",
 		"react-countup": "^6.1.1",
 		"react-dom": "^18.1.0",
 		"react-icons": "^4.3.1",
+		"react-modal": "^3.16.1",
 		"react-router-dom": "^6.0.2",
 		"react-scripts": "4.0.3",
 		"react-scroll": "^1.8.4",
@@ -28,13 +29,17 @@
 	},
 	"scripts": {
 		"start": "react-scripts --openssl-legacy-provider start",
+		
 		"prebuild": "node build-date.js",
 		"build": "react-scripts --openssl-legacy-provider build",
+		
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+		
 		"predeploy": "npm run build",
 		"deploy": "npm run copy-readme && npm run git-deploy",
+		
 		"copy-readme": "cp public/README.md build/",
 		"git-deploy": "npm run build-git && npm run add-remote && npm run push-build",
 		"build-git": "cd build && git init",

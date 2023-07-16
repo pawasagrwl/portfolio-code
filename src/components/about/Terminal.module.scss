@@ -1,20 +1,47 @@
-@import '../../variables.modules';
+$purple: #8d53ff;
+$pink: #ca6be6;
+$white: #f8f8f8;
+$dark: #1f1f1f;
+$red: #ff6057;
+$yellow: #ffbd2e;
+$green: #27c93f;
+$lightgray: #c9c9c9;
 
-i {
-  padding-left: 0.5rem;
+$transition: all 250ms ease;
 
-  &.red {
-    color: $red;
-  }
-
-  &.amber {
-    color: $yellow;
-  }
-
-  &.green {
-    color: $green;
-  }
+.pink {
+  color: $pink;
 }
+
+.green {
+  color: $green;
+}
+.red {
+  color: $red;
+}
+.amber {
+  color: $yellow;
+}
+
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+// i {
+//   padding-left: 0.5rem;
+
+//   &.red {
+//     color: $red;
+//   }
+
+//   &.amber {
+//     color: $yellow;
+//   }
+
+//   &.green {
+//     color: $green;
+//   }
+// }
 
 .terminal {
   p,

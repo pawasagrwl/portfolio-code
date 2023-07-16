@@ -3,8 +3,7 @@ import AboutCounter from "../components/about/AboutCounter";
 import AboutTechs from "../components/about/AboutTechs";
 import { AboutMeProvider } from "../context/AboutMeContext";
 import { motion } from "framer-motion";
-import { Box } from "@mui/material";
-import Terminal from "../components/about/Terminal";
+
 
 const About = () => {
   return (
