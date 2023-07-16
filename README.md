@@ -7,7 +7,7 @@ This portfolio website is built with React and Tailwind CSS. It's based on the [
 - Enable showcasing different projects in a single project view.
 - Integrated with EmailJS, with form validation, for the 'Hire Me' and 'Contact Form' features.
 - Changed Footer Copyright to Last Updated
-- About Text is now shown in a Terminal Box (inspired from []())
+- About Text is now shown in a Terminal Box (inspired from [Andy Luo's React Portfolio](https://github.com/Andy8647/andy-luo-portfolio))
 - Home button replaced with a home icon for better UX.
 
 ## Live Demo
