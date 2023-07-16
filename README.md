@@ -1,18 +1,18 @@
 # My Portfolio
 
-This portfolio website is built with React and Tailwind CSS. It's based on the [React & TailwindCSS Portfolio template](https://github.com/realstoman/react-tailwindcss-portfolio) by [Nangialai Stoman](https://github.com/realstoman).
+This portfolio website is built with React and Tailwind CSS. It's based on the [React & TailwindCSS Portfolio template][template] by [Nangialai Stoman][stoman].
 
 ## Customizations
 
 - Enable showcasing different projects in a single project view.
 - Integrated with EmailJS, with form validation, for the 'Hire Me' and 'Contact Form' features.
 - Changed Footer Copyright to Last Updated
-- About Text is now shown in a Terminal Box (inspired from [Andy Luo's React Portfolio](https://github.com/Andy8647/andy-luo-portfolio))
+- About Text is now shown in a Terminal Box (inspired from [Andy Luo's React Portfolio][andyluo])
 - Home button replaced with a home icon for better UX.
 
 ## Live Demo
 
-You can view the live demo of the portfolio here: [Live Demo](https://pawasagrwl.github.io)
+You can view the live demo of the portfolio here: [Live Demo][demo]
 
 ## Deployment on GitHub Pages
 
@@ -33,4 +33,10 @@ To setup EmailJS:
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE).
+This project is licensed under the [MIT License][license].
+
+[template]: https://github.com/realstoman/react-tailwindcss-portfolio
+[stoman]: https://github.com/realstoman
+[andyluo]: https://github.com/Andy8647/andy-luo-portfolio
+[demo]: https://pawasagrwl.github.io
+[license]: https://github.com/pawasagrwl/portfolio-code/blob/main/LICENSE
