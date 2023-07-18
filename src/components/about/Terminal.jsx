@@ -1,19 +1,16 @@
-import React from "react";
-import Style from "./Terminal.module.scss";
-import classNames from "classnames";
 import { Box } from "@mui/material";
 
-const iconClass = "fa fa-circle";
-
 function terminalText(bio) {
+  const textWithLineBreaks = bio.text.replace(/\. /g, '.\n');
+
   return (
     <>
-      <p>
-        <span style={{ color: "rgb(0,255,164)" }}>{"pawasagrwl"} $</span>{" "}
+      <p className="m-4 text-white">
+        <span className="text-green-400">{"pawasagrwl"} $</span>{" "}
         cat {bio.title}
       </p>
-      <p>
-        {bio.text}
+      <p className="text-with-breaks m-4 text-white">
+        {textWithLineBreaks}
       </p>
     </>
   );
@@ -25,27 +22,19 @@ function Terminal(props) {
   return (
     <Box
       component={"section"}
-      className={classNames(Style.terminal, Style.shadowed)}
+      className="terminal-shadow rounded-lg mb-5 text-white font-mono"
       width={{ xs: "100%", md: "100%" }}
-      borderRadius={"0.5rem"}
-      mb={"1.5rem"}
     >
       <Box
-        sx={{ backgroundColor: "#8c8c8c" }}
-        p={"0.5rem"}
+        className="terminal-bar p-2 text-md"
         borderRadius={"0.5rem 0.5rem 0 0"}
-        fontSize={"1rem"}
       >  
-        <i className={classNames(iconClass, Style.red)} />
-        <i className={classNames(iconClass, Style.amber)} />
-        <i className={classNames(iconClass, Style.green)} />
+        <i className="fa fa-circle icon-red ml-2"></i>
+        <i className="fa fa-circle icon-yellow ml-2"></i>
+        <i className="fa fa-circle icon-green ml-2"></i>
       </Box>
       <Box
-        py={{ xs: "0.5rem", md: "1rem" }}
-        px={{ xs: "1rem", md: "1.5rem" }}
-        borderRadius={"0 0 0 0"}
-        sx={{ backgroundColor: "#27242f" }}
-        fontSize={"1rem"}
+        className="p-4 terminal-bg rounded-b-md text-md"
         fontFamily={"Courier New, Courier, monospace"}
       >
         {terminalText(bio)}
