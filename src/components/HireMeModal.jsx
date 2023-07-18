@@ -245,7 +245,6 @@ const HireMeModal = ({ onClose, onRequest }) => {
           </div>
         </main>
       </motion.div>
-      kljlhihi
       <MessageStatusModal
         isOpen={modalContent.isOpen}
         onRequestClose={closeModal}
