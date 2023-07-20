@@ -6,12 +6,16 @@ const selectOptions = [
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
-	return (
-		<select
-			onChange={(e) => {
-				setSelectProject(e.target.value);
-			}}
-			className="
+  return (
+    <select
+      onChange={(e) => {
+        if (e.target.value === "All Projects") {
+          setSelectProject(null);
+        } else {
+          setSelectProject(e.target.value);
+        }
+      }}
+      className="
 				font-general-medium 
                 px-4
                 sm:px-6
@@ -27,18 +31,18 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 text-primary-dark
                 dark:text-ternary-light
             "
-		>
-			<option className="text-sm sm:text-md">
-				All Projects
-			</option>
+    >
+      <option className="text-sm sm:text-md" value="All Projects">
+        All Projects
+      </option>
 
-			{selectOptions.map((option) => (
-				<option className="text-normal sm:text-md" key={option}>
-					{option}
-				</option>
-			))}
-		</select>
-	);
+      {selectOptions.map((option) => (
+        <option className="text-normal sm:text-md" value={option} key={option}>
+          {option}
+        </option>
+      ))}
+    </select>
+  );
 };
 
 export default ProjectsFilter;
