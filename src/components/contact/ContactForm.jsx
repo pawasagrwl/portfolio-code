@@ -6,9 +6,18 @@ import emailjs from "emailjs-com";
 const ContactForm = () => {
   const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  const [messageStatus, setMessageStatus] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const resetForm = () => {
+    form.current.reset();
+    setMessageStatus("Message Sent");
+    setTimeout(() => {
+      setMessageStatus("");
+    }, 10000);
+  };
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -19,15 +28,18 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setIsSubmitting(false);
+          resetForm();
         },
         (error) => {
           console.log(error.text);
-          setIsSubmitting(false);
+          setErrorMessage("Message failed, please try again later");
         }
-      );
+      )
+      .finally(() => {
+        setIsSubmitting(false);
+      });
   };
-  
+
   return (
     <div className="w-full lg:w-1/2">
       <div className="leading-loose">
@@ -94,8 +106,12 @@ const ContactForm = () => {
               title="Send Message"
               type="submit"
               aria-label="Send Message"
+              disabled={isSubmitting}
             />
+            
           </div>
+          {messageStatus && <p className="text-green-500">{messageStatus}</p>}
+            {errorMessage && <p className="text-red-500">{errorMessage}</p>}
         </form>
       </div>
     </div>
