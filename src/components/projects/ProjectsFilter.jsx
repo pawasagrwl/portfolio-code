@@ -1,8 +1,8 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'Python Script Application',
-	'Others',
+  "Web Application",
+  "Mobile Application",
+  "Python Script Application",
+  "Others",
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

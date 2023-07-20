@@ -4,7 +4,6 @@ import AboutCounter from "../components/about/AboutCounter";
 import { AboutMeProvider } from "../context/AboutMeContext";
 import { motion } from "framer-motion";
 
-
 const About = () => {
   return (
     <>

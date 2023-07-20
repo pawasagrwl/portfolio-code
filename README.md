@@ -19,11 +19,12 @@ You can view the live demo of the portfolio here: [Live Demo][demo]
 Follow these steps to deploy your portfolio on GitHub Pages:
 
 1. Create a new repository on GitHub to host your portfolio.
-2. Replace the URL in the "*add-remote*" script in `package.json` with the URL of your new GitHub repository.
+2. Replace the URL in the "_add-remote_" script in `package.json` with the URL of your new GitHub repository.
 3. In the `public/README.md` file, replace the `portfolio` value with the link to your deployed portfolio on GitHub Pages.
 4. Save the changes.
 5. Run `npm run deploy` in your terminal. This will build your portfolio and push it to your GitHub pages repository.
-> For this to work, the build changes are all force pushed
+   > For this to work, the build changes are all force pushed
+
 ## EmailJS Setup
 
 To setup EmailJS:

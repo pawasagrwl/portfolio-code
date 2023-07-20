@@ -7,14 +7,13 @@ const SingleProjectContext = createContext();
 export const SingleProjectProvider = ({ children }) => {
   const { projectId } = useParams();
   const [singleProjectData, setSingleProjectData] = useState(
-    singleProjectDataJson[projectId]
+    singleProjectDataJson[projectId],
   );
-  
-   useEffect(() => {
-    const newProjectData = singleProjectDataJson[projectId]
+
+  useEffect(() => {
+    const newProjectData = singleProjectDataJson[projectId];
     setSingleProjectData(newProjectData);
   }, [projectId]);
-  
 
   return (
     <SingleProjectContext.Provider

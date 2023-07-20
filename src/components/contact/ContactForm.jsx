@@ -23,7 +23,7 @@ const ContactForm = () => {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_EMAILJS_USER_ID
+        process.env.REACT_APP_EMAILJS_USER_ID,
       )
       .then(
         (result) => {
@@ -33,7 +33,7 @@ const ContactForm = () => {
         (error) => {
           console.log(error.text);
           setErrorMessage("Message failed, please try again later");
-        }
+        },
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -108,10 +108,9 @@ const ContactForm = () => {
               aria-label="Send Message"
               disabled={isSubmitting}
             />
-            
           </div>
           {messageStatus && <p className="text-green-500">{messageStatus}</p>}
-            {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+          {errorMessage && <p className="text-red-500">{errorMessage}</p>}
         </form>
       </div>
     </div>

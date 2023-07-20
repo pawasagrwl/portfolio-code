@@ -40,13 +40,13 @@ const HireMeModal = ({ onClose, onRequest }) => {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_EMAILJS_USER_ID
+        process.env.REACT_APP_EMAILJS_USER_ID,
       )
       .then(
         (result) => {
           console.log(result.text);
           setMessageStatus(
-            "Message sent. This modal will close in 10 seconds."
+            "Message sent. This modal will close in 10 seconds.",
           );
           setErrorMessage("");
           setTimeout(() => {
@@ -59,7 +59,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
           setIsSubmitting(false);
           setErrorMessage("Message failed, please try again later.");
           setMessageStatus(""); // Clear the success message
-        }
+        },
       );
   };
 

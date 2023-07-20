@@ -6,12 +6,10 @@ import Image4 from "../images/mobile-project-1.jpg";
 import Image5 from "../images/web-project-1.jpg";
 import Image6 from "../images/ui-project-2.jpg";
 // Import icons
-import {
-  FiGithub,
-} from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
 export const singleProjectData = {
-  '1': {
+  1: {
     ProjectHeader: {
       title: "Amazon MiniTV AndroidTV App",
       publishDate: "May 22, 2023",
@@ -121,7 +119,7 @@ export const singleProjectData = {
       ],
     },
   },
-  '2': {
+  2: {
     ProjectHeader: {
       title: "DMetroVerse",
       publishDate: "May 22, 2023",
@@ -169,8 +167,7 @@ export const singleProjectData = {
         },
       ],
       ObjectivesHeading: "Objective",
-      ObjectivesDetails:
-        "A website for people wanting to explore delhi metro.",
+      ObjectivesDetails: "A website for people wanting to explore delhi metro.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -231,7 +228,7 @@ export const singleProjectData = {
       ],
     },
   },
-  '3': {
+  3: {
     ProjectHeader: {
       title: "Instagram Tools",
       publishDate: "May 22, 2023",
