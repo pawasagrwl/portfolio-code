@@ -45,7 +45,9 @@ const HireMeModal = ({ onClose, onRequest }) => {
       .then(
         (result) => {
           console.log(result.text);
-          setMessageStatus("Message sent. This modal will close in 10 seconds.");
+          setMessageStatus(
+            "Message sent. This modal will close in 10 seconds."
+          );
           setErrorMessage("");
           setTimeout(() => {
             setIsOpen(false);
@@ -219,6 +221,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
                     disabled={isSubmitting}
                   >
                     <Button
+                      disabled={isSubmitting}
                       title={isSubmitting ? "Sending..." : "Send Message"}
                     />
                   </span>
