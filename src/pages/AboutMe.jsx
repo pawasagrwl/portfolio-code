@@ -17,7 +17,9 @@ const About = () => {
         >
           <AboutMeBio />
         </motion.div>
-
+        
+       
+        
         {/** Counter without paddings */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -26,6 +28,8 @@ const About = () => {
         >
           <AboutCounter />
         </motion.div>
+
+         {/* ADD DATA FOR THESE  */}
 
         {/* <motion.div
           initial={{ opacity: 0 }}
