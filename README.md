@@ -4,7 +4,7 @@ This portfolio website is built with React and Tailwind CSS. It's based on the [
 
 ## Customizations
 
-- Enabled showcasing different projects in a single project view.
+- Enabled showcasing different projects in a single project view. (Combined projects data in one file)
 - Integrated with EmailJS, with form validation, for the 'Hire Me' and 'Contact Form' features.
 - Changed Footer Copyright to Last Updated. Current Date is automatically added when a build is deployed.
 - About Text is now shown in a Terminal Box (inspired from [Andy Luo's React Portfolio][andyluo])

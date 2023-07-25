@@ -1,17 +1,18 @@
 import { useState, createContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { singleProjectData as singleProjectDataJson } from "../data/singleProjectData";
+import { projectsData } from "../data/projectsData";
 
 const SingleProjectContext = createContext();
 
 export const SingleProjectProvider = ({ children }) => {
   const { projectId } = useParams();
+  console.log(projectsData.find((project) => project.id === projectId).singleData)
   const [singleProjectData, setSingleProjectData] = useState(
-    singleProjectDataJson[projectId],
+    projectsData.find((project) => project.id === projectId).singleData,
   );
 
   useEffect(() => {
-    const newProjectData = singleProjectDataJson[projectId];
+    const newProjectData = projectsData.find((project) => project.id === projectId).singleData;
     setSingleProjectData(newProjectData);
   }, [projectId]);
 

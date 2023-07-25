@@ -1,5 +1,5 @@
 import { useState, createContext } from "react";
-import { projectsData } from "../data/projects";
+import { projectsData } from "../data/projectsData";
 
 // Create projects context
 export const ProjectsContext = createContext();
