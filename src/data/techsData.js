@@ -1,54 +1,186 @@
 // Import images
-import AmazonImage from "../images/brands/amazon_gray.png";
-import SonyImage from "../images/brands/sony_gray.png";
-import AdidasImage from "../images/brands/adidas_gray.png";
-import FilaImage from "../images/brands/fila_gray.png";
-import NBImage from "../images/brands/nb_gray.png";
-import SamsungImage from "../images/brands/samsung_gray.png";
-import CanonImage from "../images/brands/canon_gray.png";
-import PumaImage from "../images/brands/puma_gray.png";
+import JavaScriptImage from "../images/techs/javascript.svg";
+import JavaImage from "../images/techs/java.svg";
+import PythonImage from "../images/techs/python.svg";
+import CPPImage from "../images/techs/cpp.svg";
+import CSharpImage from "../images/techs/csharp.svg";
+import SQLImage from "../images/techs/sql.svg";
+import PHPImage from "../images/techs/php.svg";
+import GoImage from "../images/techs/go.svg";
+import RustImage from "../images/techs/rust.svg";
+import BashImage from "../images/techs/bash.svg";
+import MarkdownImage from "../images/techs/markdown.svg";
+import HTMLCSSImage from "../images/techs/html5.svg";
+import RImage from "../images/techs/r.svg";
+import TypeScriptImage from "../images/techs/typescript.svg";
+import ReactImage from "../images/techs/react.svg";
+import NodejsImage from "../images/techs/nodejs.svg";
+import BootstrapImage from "../images/techs/bootstrap.svg";
+import SeleniumImage from "../images/techs/selenium.svg";
+import MUIImage from "../images/techs/mui.svg";
+import MongoDBImage from "../images/techs/mongodb.svg";
+import GitImage from "../images/techs/git.svg";
+import VSCodeImage from "../images/techs/vscode.svg";
+import LinuxShellImage from "../images/techs/linuxshell.svg";
+import VisualStudioImage from "../images/techs/visualstudio.svg";
+import HerokuImage from "../images/techs/heroku.svg";
+import WindowsImage from "../images/techs/windows.svg";
+import AndroidImage from "../images/techs/android.svg";
+import LinuxImage from "../images/techs/linux.svg";
 
 export const techsHeading = "Technologies I work or have worked with.";
 
 export const techsData = [
+  // Languages
   {
     id: 1,
-    title: "Amazon",
-    img: AmazonImage,
+    title: "Python",
+    img: PythonImage,
   },
   {
     id: 2,
-    title: "Sony",
-    img: SonyImage,
+    title: "JavaScript",
+    img: JavaScriptImage,
   },
   {
     id: 3,
-    title: "Adidas",
-    img: AdidasImage,
+    title: "TypeScript",
+    img: TypeScriptImage,
   },
   {
     id: 4,
-    title: "FILA",
-    img: FilaImage,
+    title: "Java",
+    img: JavaImage,
   },
   {
     id: 5,
-    title: "NB",
-    img: NBImage,
+    title: "C#",
+    img: CSharpImage,
   },
   {
     id: 6,
-    title: "SAMSUNG",
-    img: SamsungImage,
+    title: "C/C++",
+    img: CPPImage,
   },
   {
     id: 7,
-    title: "CANON",
-    img: CanonImage,
+    title: "PHP",
+    img: PHPImage,
   },
   {
     id: 8,
-    title: "PUMA",
-    img: PumaImage,
+    title: "Go",
+    img: GoImage,
+  },
+  {
+    id: 9,
+    title: "Rust",
+    img: RustImage,
+  },
+  {
+    id: 10,
+    title: "R",
+    img: RImage,
+  },
+  {
+    id: 11,
+    title: "Bash",
+    img: BashImage,
+  },
+  {
+    id: 12,
+    title: "Markdown",
+    img: MarkdownImage,
+  },
+  {
+    id: 13,
+    title: "SQL",
+    img: SQLImage,
+  },
+  
+  // Frontend
+  {
+    id: 14,
+    title: "HTML/CSS",
+    img: HTMLCSSImage,
+  },
+  {
+    id: 15,
+    title: "React",
+    img: ReactImage,
+  },
+  {
+    id: 16,
+    title: "MUI",
+    img: MUIImage,
+  },
+  {
+    id: 17,
+    title: "Bootstrap",
+    img: BootstrapImage,
+  },
+
+  // Backend
+  {
+    id: 18,
+    title: "Node.js",
+    img: NodejsImage,
+  },
+  {
+    id: 19,
+    title: "Selenium",
+    img: SeleniumImage,
+  },
+
+  // Databases
+  {
+    id: 20,
+    title: "MongoDB",
+    img: MongoDBImage,
+  },
+
+  // Tools & Platforms
+  {
+    id: 21,
+    title: "Git",
+    img: GitImage,
+  },
+  {
+    id: 22,
+    title: "VS Code",
+    img: VSCodeImage,
+  },
+  {
+    id: 23,
+    title: "Linux Shell",
+    img: LinuxShellImage,
+  },
+  {
+    id: 24,
+    title: "Visual Studio",
+    img: VisualStudioImage,
+  },
+  {
+    id: 25,
+    title: "Heroku",
+    img: HerokuImage,
+  },
+
+  // Operating Systems
+  {
+    id: 26,
+    title: "Windows",
+    img: WindowsImage,
+  },
+  {
+    id: 27,
+    title: "Linux",
+    img: LinuxImage,
+  },
+  {
+    id: 28,
+    title: "Android",
+    img: AndroidImage,
   },
 ];
+

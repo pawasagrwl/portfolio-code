@@ -1,6 +1,6 @@
 import AboutMeBio from "../components/about/AboutMeBio";
 import AboutCounter from "../components/about/AboutCounter";
-// import AboutTechs from "../components/about/AboutTechs";
+import AboutTechs from "../components/about/AboutTechs";
 import { AboutMeProvider } from "../context/AboutMeContext";
 import { motion } from "framer-motion";
 
@@ -8,7 +8,6 @@ const About = () => {
   return (
     <>
       <AboutMeProvider>
-        {/* <Terminal text="About Me" /> */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, delay: 1 }}
@@ -17,9 +16,7 @@ const About = () => {
         >
           <AboutMeBio />
         </motion.div>
-        
-       
-        
+
         {/** Counter without paddings */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -29,16 +26,16 @@ const About = () => {
           <AboutCounter />
         </motion.div>
 
-         {/* ADD DATA FOR THESE  */}
+        {/* ADD DATA FOR THESE  */}
 
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, delay: 1 }}
           exit={{ opacity: 0 }}
           className="container mx-auto"
         >
           <AboutTechs />
-        </motion.div> */}
+        </motion.div>
       </AboutMeProvider>
     </>
   );

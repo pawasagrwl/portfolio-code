@@ -1618,3 +1618,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .icon-green {
   color: #27c93f;
 }
+
+.tech-img {
+  object-fit: contain;
+  height: 100px; /* adjust this to your needs */
+  background-color: black;
+}
