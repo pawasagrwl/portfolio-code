@@ -15,9 +15,12 @@ import RImage from "../images/techs/r.svg";
 import TypeScriptImage from "../images/techs/typescript.svg";
 import ReactImage from "../images/techs/react.svg";
 import NodejsImage from "../images/techs/nodejs.svg";
+import ExpressjsImage from "../images/techs/express.svg";
+import DjangoImage from "../images/techs/django.svg";
 import BootstrapImage from "../images/techs/bootstrap.svg";
 import SeleniumImage from "../images/techs/selenium.svg";
 import MUIImage from "../images/techs/mui.svg";
+import TailwindCSSImage from "../images/techs/tailwindcss.svg";
 import MongoDBImage from "../images/techs/mongodb.svg";
 import GitImage from "../images/techs/git.svg";
 import VSCodeImage from "../images/techs/vscode.svg";
@@ -31,16 +34,15 @@ import LinuxImage from "../images/techs/linux.svg";
 export const techsHeading = "Technologies I work or have worked with.";
 
 export const techsData = [
-  // Languages
   {
     id: 1,
-    title: "Python",
-    img: PythonImage,
+    title: "JavaScript",
+    img: JavaScriptImage,
   },
   {
     id: 2,
-    title: "JavaScript",
-    img: JavaScriptImage,
+    title: "React",
+    img: ReactImage,
   },
   {
     id: 3,
@@ -49,136 +51,141 @@ export const techsData = [
   },
   {
     id: 4,
-    title: "Java",
-    img: JavaImage,
-  },
-  {
-    id: 5,
-    title: "C#",
-    img: CSharpImage,
-  },
-  {
-    id: 6,
-    title: "C/C++",
-    img: CPPImage,
-  },
-  {
-    id: 7,
-    title: "PHP",
-    img: PHPImage,
-  },
-  {
-    id: 8,
-    title: "Go",
-    img: GoImage,
-  },
-  {
-    id: 9,
-    title: "Rust",
-    img: RustImage,
-  },
-  {
-    id: 10,
-    title: "R",
-    img: RImage,
-  },
-  {
-    id: 11,
-    title: "Bash",
-    img: BashImage,
-  },
-  {
-    id: 12,
-    title: "Markdown",
-    img: MarkdownImage,
-  },
-  {
-    id: 13,
-    title: "SQL",
-    img: SQLImage,
-  },
-  
-  // Frontend
-  {
-    id: 14,
-    title: "HTML/CSS",
-    img: HTMLCSSImage,
-  },
-  {
-    id: 15,
-    title: "React",
-    img: ReactImage,
-  },
-  {
-    id: 16,
-    title: "MUI",
-    img: MUIImage,
-  },
-  {
-    id: 17,
-    title: "Bootstrap",
-    img: BootstrapImage,
-  },
-
-  // Backend
-  {
-    id: 18,
     title: "Node.js",
     img: NodejsImage,
   },
   {
-    id: 19,
+    id: 5,
+    title: "Express.js",
+    img: ExpressjsImage,
+  },
+  {
+    id: 6,
+    title: "MUI",
+    img: MUIImage,
+  },
+  {
+    id: 7,
+    title: "Bootstrap",
+    img: BootstrapImage,
+  },
+  {
+    id: 8,
+    title: "TailwindCSS",
+    img: TailwindCSSImage,
+  },
+  {
+    id: 9,
+    title: "HTML/CSS",
+    img: HTMLCSSImage,
+  },
+  {
+    id: 10,
+    title: "Python",
+    img: PythonImage,
+  },
+  {
+    id: 11,
+    title: "Django",
+    img: DjangoImage,
+  },
+  {
+    id: 12,
     title: "Selenium",
     img: SeleniumImage,
   },
-
-  // Databases
+  {
+    id: 13,
+    title: "Java",
+    img: JavaImage,
+  },
+  {
+    id: 14,
+    title: "C#",
+    img: CSharpImage,
+  },
+  {
+    id: 15,
+    title: "C/C++",
+    img: CPPImage,
+  },
+  {
+    id: 16,
+    title: "PHP",
+    img: PHPImage,
+  },
+  {
+    id: 17,
+    title: "Go",
+    img: GoImage,
+  },
+  {
+    id: 18,
+    title: "Rust",
+    img: RustImage,
+  },
+  {
+    id: 19,
+    title: "R",
+    img: RImage,
+  },
   {
     id: 20,
+    title: "Bash",
+    img: BashImage,
+  },
+  {
+    id: 21,
+    title: "Markdown",
+    img: MarkdownImage,
+  },
+  {
+    id: 22,
+    title: "SQL",
+    img: SQLImage,
+  },
+  {
+    id: 23,
     title: "MongoDB",
     img: MongoDBImage,
   },
-
-  // Tools & Platforms
   {
-    id: 21,
+    id: 24,
     title: "Git",
     img: GitImage,
   },
   {
-    id: 22,
+    id: 25,
     title: "VS Code",
     img: VSCodeImage,
   },
   {
-    id: 23,
+    id: 26,
     title: "Linux Shell",
     img: LinuxShellImage,
   },
   {
-    id: 24,
+    id: 27,
     title: "Visual Studio",
     img: VisualStudioImage,
   },
   {
-    id: 25,
+    id: 28,
     title: "Heroku",
     img: HerokuImage,
   },
-
-  // Operating Systems
   {
-    id: 26,
+    id: 29,
     title: "Windows",
     img: WindowsImage,
   },
   {
-    id: 27,
+    id: 30,
     title: "Linux",
     img: LinuxImage,
   },
   {
-    id: 28,
+    id: 31,
     title: "Android",
     img: AndroidImage,
   },
