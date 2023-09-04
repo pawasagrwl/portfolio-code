@@ -1,9 +1,10 @@
 import { useCountUp } from "react-countup";
 import CounterItem from "./CounterItem";
 
+
 const AboutCounter = () => {
   useCountUp({ ref: "experienceCounter", end: 1, duration: 2 });
-  useCountUp({ ref: "leetcodeCounter", end: 110, duration: 2 });
+  useCountUp({ ref: "leetcodeCounter", end: 150, duration: 2 });
   useCountUp({ ref: "projectsCounter", end: 5, duration: 2 });
 
   return (

@@ -7,7 +7,7 @@ const CounterItem = ({ title, counter, measurement, link }) => {
         {counter} {measurement}
       </h2>
       <span className="font-general-regular block text-md text-center text-ternary-dark dark:text-ternary-light">
-        <a href={link} target="_blank">{title}</a>
+        <a href={link} target="_blank" rel="noreferrer">{title}</a>
       </span>
     </div>
   );
