@@ -95,8 +95,8 @@ export const projectsData = [
         title: "ArtistAPI",
         publishDate: "August 02, 2023",
         tags: "Python, Django",
-        url: "https://pawasagrwl.github.io/dmetroverse/",
-        source: "https://github.com/pawasagrwl/dmetroverse-code",
+        url: "https://github.com/pawasagrwl/artistAPI",
+        source: "https://github.com/pawasagrwl/artistAPI",
       },
       ProjectImages: [
         {
@@ -118,7 +118,7 @@ export const projectsData = [
       ProjectInfo: {
         ObjectivesHeading: "Objective",
         ObjectivesDetails:
-          "A python script to perform various function for an instagram account using web-scraping",
+          "A Django REST Framework-based API for managing artists and their works with user authentication. ",
         Technologies: [
           {
             title: "Tools & Technologies",
@@ -181,8 +181,8 @@ export const projectsData = [
         title: "Instagram Tools",
         publishDate: "May 22, 2023",
         tags: "Python, Selenium, Instagram",
-        url: "https://pawasagrwl.github.io/dmetroverse/",
-        source: "https://github.com/pawasagrwl/dmetroverse-code",
+        url: "https://github.com/pawasagrwl/InstagramTools",
+        source: "https://github.com/pawasagrwl/InstagramTools",
       },
       ProjectImages: [
         {
@@ -268,8 +268,8 @@ export const projectsData = [
         title: "Amazon MiniTV AndroidTV App",
         publishDate: "May 22, 2023",
         tags: "Android, Java",
-        url: "https://pawasagrwl.github.io/dmetroverse/",
-        source: "https://github.com/pawasagrwl/dmetroverse-code",
+        url: "https://github.com/pawasagrwl/AndroidTVApp-AmazonMiniTV/releases/tag/v1.0.0/",
+        source: "https://github.com/pawasagrwl/AndroidTVApp-AmazonMiniTV",
       },
       ProjectImages: [
         {
