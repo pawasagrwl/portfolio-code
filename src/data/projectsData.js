@@ -54,7 +54,7 @@ export const projectsData = [
             techs: ["React", "JavaScript", "TypeScript", "NodeJS", "ExpressJS"],
           },
         ],
-        ProjectDetailsHeading: "Challenge",
+        ProjectDetailsHeading: "About Project",
         ProjectDetails: [
           {
             id: 1,
@@ -89,13 +89,14 @@ export const projectsData = [
     id: "2",
     title: "ArtistAPI",
     category: "Backend API",
-    url: "",
     img: UIImage1,
     singleData: {
       ProjectHeader: {
         title: "ArtistAPI",
         publishDate: "August 02, 2023",
         tags: "Python, Django",
+        url: "https://pawasagrwl.github.io/dmetroverse/",
+        source: "https://github.com/pawasagrwl/dmetroverse-code",
       },
       ProjectImages: [
         {
@@ -115,29 +116,6 @@ export const projectsData = [
         },
       ],
       ProjectInfo: {
-        ClientHeading: "About Client",
-        CompanyInfo: [
-          {
-            id: 1,
-            title: "Name",
-            details: "Company Ltd",
-          },
-          {
-            id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
-          },
-          {
-            id: 3,
-            title: "Website",
-            details: "https://company.com",
-          },
-          {
-            id: 4,
-            title: "Phone",
-            details: "555 8888 888",
-          },
-        ],
         ObjectivesHeading: "Objective",
         ObjectivesDetails:
           "A python script to perform various function for an instagram account using web-scraping",
@@ -147,7 +125,7 @@ export const projectsData = [
             techs: ["Python", "Selenium"],
           },
         ],
-        ProjectDetailsHeading: "Challenge",
+        ProjectDetailsHeading: "About Project",
         ProjectDetails: [
           {
             id: 1,
@@ -168,15 +146,6 @@ export const projectsData = [
             id: 4,
             details:
               "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        SourceCodeHeading: "Source Code",
-        SourceCode: [
-          {
-            id: 1,
-            name: "GitHub",
-            icon: <FiGithub />,
-            url: "https://github.com/pawasagrwl/InstagramTools",
           },
         ],
       },
@@ -206,13 +175,14 @@ export const projectsData = [
     id: "3",
     title: "Instagram Tools",
     category: "Python Script Application",
-    url: "",
     img: UIImage1,
     singleData: {
       ProjectHeader: {
         title: "Instagram Tools",
         publishDate: "May 22, 2023",
         tags: "Python, Selenium, Instagram",
+        url: "https://pawasagrwl.github.io/dmetroverse/",
+        source: "https://github.com/pawasagrwl/dmetroverse-code",
       },
       ProjectImages: [
         {
@@ -232,29 +202,6 @@ export const projectsData = [
         },
       ],
       ProjectInfo: {
-        ClientHeading: "About Client",
-        CompanyInfo: [
-          {
-            id: 1,
-            title: "Name",
-            details: "Company Ltd",
-          },
-          {
-            id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
-          },
-          {
-            id: 3,
-            title: "Website",
-            details: "https://company.com",
-          },
-          {
-            id: 4,
-            title: "Phone",
-            details: "555 8888 888",
-          },
-        ],
         ObjectivesHeading: "Objective",
         ObjectivesDetails:
           "A python script to perform various function for an instagram account using web-scraping",
@@ -264,7 +211,7 @@ export const projectsData = [
             techs: ["Python", "Selenium"],
           },
         ],
-        ProjectDetailsHeading: "Challenge",
+        ProjectDetailsHeading: "About Project",
         ProjectDetails: [
           {
             id: 1,
@@ -285,15 +232,6 @@ export const projectsData = [
             id: 4,
             details:
               "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        SourceCodeHeading: "Source Code",
-        SourceCode: [
-          {
-            id: 1,
-            name: "GitHub",
-            icon: <FiGithub />,
-            url: "https://github.com/pawasagrwl/InstagramTools",
           },
         ],
       },
@@ -323,13 +261,15 @@ export const projectsData = [
     id: "4",
     title: "Amazon MiniTV AndroidTV App",
     category: "Mobile Application",
-    url: "",
+
     img: WebImage2,
     singleData: {
       ProjectHeader: {
         title: "Amazon MiniTV AndroidTV App",
         publishDate: "May 22, 2023",
         tags: "Android, Java",
+        url: "https://pawasagrwl.github.io/dmetroverse/",
+        source: "https://github.com/pawasagrwl/dmetroverse-code",
       },
       ProjectImages: [
         {
@@ -349,29 +289,6 @@ export const projectsData = [
         },
       ],
       ProjectInfo: {
-        ClientHeading: "About Client",
-        CompanyInfo: [
-          {
-            id: 1,
-            title: "Name",
-            details: "Company Ltd",
-          },
-          {
-            id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
-          },
-          {
-            id: 3,
-            title: "Website",
-            details: "https://company.com",
-          },
-          {
-            id: 4,
-            title: "Phone",
-            details: "555 8888 888",
-          },
-        ],
         ObjectivesHeading: "Objective",
         ObjectivesDetails:
           "This Android app allows you to access the Amazon Mini TV website on your Android TV device.",
@@ -381,7 +298,7 @@ export const projectsData = [
             techs: ["Java", "Android Studio"],
           },
         ],
-        ProjectDetailsHeading: "Challenge",
+        ProjectDetailsHeading: "About Project",
         ProjectDetails: [
           {
             id: 1,
@@ -402,15 +319,6 @@ export const projectsData = [
             id: 4,
             details:
               "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        SourceCodeHeading: "Source Code",
-        SourceCode: [
-          {
-            id: 1,
-            name: "GitHub",
-            icon: <FiGithub />,
-            url: "https://github.com/pawasagrwl/AndroidTVApp-AmazonMiniTV",
           },
         ],
       },
@@ -439,14 +347,16 @@ export const projectsData = [
   {
     id: "5",
     title: "Programming Polyglot",
-    category: "Backend API",
-    url: "",
+    category: "Web Application",
+
     img: UIImage1,
     singleData: {
       ProjectHeader: {
-        title: "ArtistAPI",
-        publishDate: "August 02, 2023",
-        tags: "Python, Django",
+        title: "Programming Polyglot",
+        publishDate: "August 19, 2023",
+        tags: "JavaScript, Markdown, HTML/CSS",
+        url: "https://pawasagrwl.github.io/polyglot/",
+        source: "https://github.com/pawasagrwl/polyglot",
       },
       ProjectImages: [
         {
@@ -466,39 +376,16 @@ export const projectsData = [
         },
       ],
       ProjectInfo: {
-        ClientHeading: "About Client",
-        CompanyInfo: [
-          {
-            id: 1,
-            title: "Name",
-            details: "Company Ltd",
-          },
-          {
-            id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
-          },
-          {
-            id: 3,
-            title: "Website",
-            details: "https://company.com",
-          },
-          {
-            id: 4,
-            title: "Phone",
-            details: "555 8888 888",
-          },
-        ],
         ObjectivesHeading: "Objective",
         ObjectivesDetails:
-          "A python script to perform various function for an instagram account using web-scraping",
+          "An interactive guide to programming constructs across various languages, designed to help developers find code snippets for common operations and algorithms.",
         Technologies: [
           {
             title: "Tools & Technologies",
-            techs: ["Python", "Selenium"],
+            techs: ["JavaScript", "HTML/CSS", "Markdown"],
           },
         ],
-        ProjectDetailsHeading: "Challenge",
+        ProjectDetailsHeading: "About Project",
         ProjectDetails: [
           {
             id: 1,
@@ -519,15 +406,6 @@ export const projectsData = [
             id: 4,
             details:
               "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        SourceCodeHeading: "Source Code",
-        SourceCode: [
-          {
-            id: 1,
-            name: "GitHub",
-            icon: <FiGithub />,
-            url: "https://github.com/pawasagrwl/InstagramTools",
           },
         ],
       },
