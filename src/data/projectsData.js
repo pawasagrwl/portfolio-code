@@ -9,6 +9,7 @@ import Image3 from "../images/mobile-project-2.jpg";
 import Image4 from "../images/mobile-project-1.jpg";
 import Image5 from "../images/web-project-1.jpg";
 import Image6 from "../images/ui-project-2.jpg";
+import dmvImage1 from "../images/projects/dmetroverse/image1.png";
 
 import { FiGithub } from "react-icons/fi";
 
@@ -17,18 +18,20 @@ export const projectsData = [
     id: "1",
     title: "DMetroVerse",
     category: "Web Application",
-    img: MobileImage2,
+    img: dmvImage1,
     singleData: {
       ProjectHeader: {
         title: "DMetroVerse",
         publishDate: "May 22, 2023",
-        tags: "React, TypeScript, JavaScript, Heroku",
+        tags: "React, TypeScript, JavaScript, NodeJS, ExpressJS",
+        url: "https://pawasagrwl.github.io/dmetroverse/",
+        source: "https://github.com/pawasagrwl/dmetroverse-code",
       },
       ProjectImages: [
         {
           id: 1,
           title: "Kabul Project Management UI",
-          img: Image1,
+          img: dmvImage1,
         },
         {
           id: 2,
@@ -42,36 +45,13 @@ export const projectsData = [
         },
       ],
       ProjectInfo: {
-        ClientHeading: "About Client",
-        CompanyInfo: [
-          {
-            id: 1,
-            title: "Name",
-            details: "Company Ltd",
-          },
-          {
-            id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
-          },
-          {
-            id: 3,
-            title: "Website",
-            details: "https://company.com",
-          },
-          {
-            id: 4,
-            title: "Phone",
-            details: "555 8888 888",
-          },
-        ],
         ObjectivesHeading: "Objective",
         ObjectivesDetails:
           "A website for people wanting to explore delhi metro.",
         Technologies: [
           {
             title: "Tools & Technologies",
-            techs: ["React", "JavaScript", "TypeScript", "Node.js"],
+            techs: ["React", "JavaScript", "TypeScript", "NodeJS", "ExpressJS"],
           },
         ],
         ProjectDetailsHeading: "Challenge",
@@ -80,30 +60,6 @@ export const projectsData = [
             id: 1,
             details:
               "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-          {
-            id: 2,
-            details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-          },
-          {
-            id: 3,
-            details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-          },
-          {
-            id: 4,
-            details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        SourceCodeHeading: "Source Code",
-        SourceCode: [
-          {
-            id: 1,
-            name: "GitHub",
-            icon: <FiGithub />,
-            url: "https://github.com/pawasagrwl/dmetroverse-code",
           },
         ],
       },
@@ -133,6 +89,7 @@ export const projectsData = [
     id: "2",
     title: "ArtistAPI",
     category: "Backend API",
+    url: "",
     img: UIImage1,
     singleData: {
       ProjectHeader: {
@@ -249,6 +206,7 @@ export const projectsData = [
     id: "3",
     title: "Instagram Tools",
     category: "Python Script Application",
+    url: "",
     img: UIImage1,
     singleData: {
       ProjectHeader: {
@@ -365,6 +323,7 @@ export const projectsData = [
     id: "4",
     title: "Amazon MiniTV AndroidTV App",
     category: "Mobile Application",
+    url: "",
     img: WebImage2,
     singleData: {
       ProjectHeader: {
@@ -481,6 +440,7 @@ export const projectsData = [
     id: "5",
     title: "Programming Polyglot",
     category: "Backend API",
+    url: "",
     img: UIImage1,
     singleData: {
       ProjectHeader: {

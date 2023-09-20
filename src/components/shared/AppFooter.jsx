@@ -1,16 +1,22 @@
 import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 import AppFooterLastUpdated from "./AppFooterLastUpdated";
 
 const socialLinks = [
   {
-    id: 2,
+    id: 1,
     icon: <FiGithub />,
     url: "https://github.com/pawasagrwl",
   },
   {
-    id: 4,
+    id: 2,
     icon: <FiLinkedin />,
     url: "https://www.linkedin.com/in/pawasagrwl",
+  },
+  {
+    id: 3,
+    icon: <SiLeetcode />,
+    url: "https://leetcode.com/pawasagrwl/",
   },
 ];
 
